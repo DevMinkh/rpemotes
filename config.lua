@@ -30,14 +30,14 @@ Config = {
     -- Use a 512 x 128 image!
     -- Note this might cause an issue of the image getting stuck on peoples screens
     CustomMenuEnabled = true,
-    MenuImage = "https://i.imgur.com/osq2J0h.png", ----[Custom banner IMGUR or GIPHY URLs go here ]---
+    MenuImage = "https://imgur.com/N1mZnpI", ----[Custom banner IMGUR or GIPHY URLs go here ]---
     -- You can change the menu image by pasting a link above. It must be the same width and length
     -- You can change the name of the menu here or leave it blank to remove the text in front of the custom banners
     MenuTitle = "",
     -- You can change the menu position here
     MenuPosition = "right", -- (left, right)
     -- You can enable or disable the Ragdoll keybinding here.
-    RagdollEnabled = false,
+    RagdollEnabled = true,
     RagdollKeybind = 'u', -- Get the button string here https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
     -- You can enable or disable Ragdoll as Toggle here. Only works if RagdollEnabled is set to true.
     RagdollAsToggle = true,
@@ -56,7 +56,7 @@ Config = {
     -- If you don't like gta notifications, you can disable them here to have messages in the chat.
     NotificationsAsChatMessage = false,
     -- Used for few framework dependent things. Accepted values: "qb-core", false
-    Framework = false,
+    Framework = "qb-core",
     -- You can disable the Adult Emotes here.
     AdultEmotesDisabled = false,
     -- You can disable the Animal Emotes here.
@@ -76,8 +76,8 @@ Config = {
     PointingKeybindInCarEnabled = false,
     PersistentEmoteAfterPointing = true, -- If true, you will play the emote you were playing previously after you stop pointing.
     -- If crouching should be enabled.
-    CrouchEnabled = true,
-    CrouchKeybindEnabled = true, -- If true, crouching will use keybinds.
+    CrouchEnabled = false,
+    CrouchKeybindEnabled = false, -- If true, crouching will use keybinds.
     CrouchKeybind = 'lcontrol', -- The default crouch keybind, get the button string here: https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
     CrouchOverride = false, -- If true, you won't enter stealth mode even if the crouch key and the "duck" key are the same.
     -- If crawling should be enabled.
