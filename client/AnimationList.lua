@@ -23819,6 +23819,26 @@ RP.PropEmotes = {
             EmoteLoop = true,
             EmoteMoving = true,
         }
-  }
+  },
+
+  --added 14/01/24
+    ["kawaii_animal_breads"] = { --- Custom Prop by Bzzzi
+        "mp_player_inteat@burger",
+        "mp_player_int_eat_burger",
+        "Animal Bread",
+        AnimationOptions = {
+            Prop = 'kawaii_animal_breads',
+            PropBone = 18905,
+            PropPlacement = {
+                0.16,
+                0.04,
+                0.03,
+                18.0,
+                164.0,
+                -5.0
+            },
+        EmoteMoving = true
+        }
+    },
 
 }
